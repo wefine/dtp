@@ -10,6 +10,7 @@
     <version>0.0.1</version>
     <modules>
         <module>ltx-jdbc</module>
+        <module>ltx-springboot-jpa</module>
         <module>springboot-security-getstart</module>
     </modules>
 
