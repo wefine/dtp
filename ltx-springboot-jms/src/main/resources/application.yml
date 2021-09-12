@@ -1,0 +1,16 @@
+spring:
+  activemq:
+    user: admin
+    password: admin
+    broker-url: tcp://192.168.1.10:61616
+    # 默认代理URL是否应该在内存中。如果指定了显式代理，则忽略此值。
+    in-memory: true
+    # true表示使用连接池
+    pool:
+      enabled: true
+      # 连接池最大连接数
+      max-connections: 5
+    # mq默认的提供的是queue, 若要topic需要如下配置
+    non-blocking-redelivery: false
+  jms:
+    pub-sub-domain: false

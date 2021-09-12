@@ -1,0 +1,18 @@
+GET http://localhost:8080/api/customer/message
+Accept: application/json
+
+###
+
+###
+POST http://localhost:8080/api/customer/message1/listen?msg=hello
+Content-Type: application/json
+
+{}
+
+###
+POST http://localhost:8080/api/customer/message1/direct?msg=hello
+Content-Type: application/json
+
+{}
+
+###

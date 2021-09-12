@@ -45,3 +45,20 @@ START TRANSACTION;
 SELECT * FROM t_user
 COMMIT;
 ```
+
+rabbitmq
+```bash
+docker run -d --hostname rabbit --name some-rabbit rabbitmq:3
+
+docker run -d --name rabbit rabbitmq:3
+
+docker run -d --hostname my-rabbit --name some-rabbit -p 8080:15672 rabbitmq:3-management
+sudo docker run -d --name rabbit -p 15672:15672 -p 5672:5672 -p 4369:4369 rabbitmq:3-management
+```
+
+activemq
+```bash
+sudo docker pull webcenter/activemq
+
+sudo docker run -d --name activemq -p 61616:61616 -p 8161:8161 webcenter/activemq
+```
