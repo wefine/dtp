@@ -13,6 +13,8 @@
         <module>ltx-springboot-jpa</module>
         <module>ltx-springboot-jms</module>
         <module>springboot-security-getstart</module>
+        <module>dtx-simple-jta1</module>
+        <module>dtx-simple-jta2</module>
     </modules>
 
     <repositories>
