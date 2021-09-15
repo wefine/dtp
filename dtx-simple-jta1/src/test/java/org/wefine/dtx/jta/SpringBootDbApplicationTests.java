@@ -1,4 +1,4 @@
-package com.immoc.example.springtx;
+package org.wefine.dtx.jta;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
