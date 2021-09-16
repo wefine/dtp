@@ -15,6 +15,9 @@
         <module>springboot-security-getstart</module>
         <module>dtx-simple-jta1</module>
         <module>dtx-simple-jta2</module>
+        <module>dtx-chain-db</module>
+        <module>dtx-chain-jpa</module>
+        <module>dtx-chain-jms</module>
     </modules>
 
     <repositories>
