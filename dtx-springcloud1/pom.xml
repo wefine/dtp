@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dtp</artifactId>
+        <groupId>org.wefine</groupId>
+        <version>0.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dtx-springcloud1</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>service1</module>
+        <module>order1</module>
+        <module>proxy1</module>
+        <module>registry1</module>
+        <module>user1</module>
+    </modules>
+</project>

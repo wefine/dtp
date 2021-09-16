@@ -18,6 +18,7 @@
         <module>dtx-chain-db</module>
         <module>dtx-chain-jpa</module>
         <module>dtx-chain-jms</module>
+        <module>dtx-springcloud1</module>
     </modules>
 
     <repositories>
